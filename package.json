@@ -1,0 +1,15 @@
+{
+  "name": "skill-calendar",
+  "version": "0.0.1",
+  "description": "A utility to make a skill calendar for a website or a resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Marcus <ryan@rmarcus.info>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "q-io": "^1.13.1",
+    "underscore": "^1.8.3"
+  }
+}
