@@ -1,5 +1,20 @@
 "use strict";
 
+//This file is part of skill-calendar.
+// 
+//skill-calendar is free software: you can redistribute it and/or modify
+//it under the terms of the GNU General Public License as published by
+//the Free Software Foundation, either version 3 of the License, or
+//(at your option) any later version.
+// 
+//skill-calendar is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	 See the
+//GNU General Public License for more details.
+// 
+//You should have received a copy of the GNU General Public License
+//along with skill-calendar.  If not, see <http://www.gnu.org/licenses/>.
+
 var assert = require("assert");
 var shell = require("shelljs");
 
@@ -55,7 +70,7 @@ describe("the CLI", function () {
 			shell.rm("test.png");
 		}
 
-	if (shell.test("-f", "test.svg")) {
+		if (shell.test("-f", "test.svg")) {
 			shell.rm("test.svg");
 		}
 
@@ -68,5 +83,13 @@ describe("the CLI", function () {
 
 		shell.rm("test.png");
 		shell.rm("test.svg");
+	});
+
+	it("should produce SVGs with sensical size", () => {
+		let res = silent("./index.js test/example.csv").output; 
+		let res2 = silent("./index.js test/example2.csv").output; 
+		
+		assert(res.length > res2.length);
+		
 	});
 });
