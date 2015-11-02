@@ -6,6 +6,10 @@ This is a simple NodeJS script to make "cool" skill calendars like this one:
 
 ![a skill calendar](https://raw.githubusercontent.com/RyanMarcus/skill-calendar/master/example.png)
 
+To install, use `NPM`:
+
+    npm install -g skill-calendar
+
 `skill-calendar` takes a basic TSV (tab seperated values) file like this:
 
     Year	Java	SQL		Python
