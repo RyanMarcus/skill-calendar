@@ -1,0 +1,32 @@
+NAME
+  skill-calendar - renders SVG skill calendars 
+
+SYNOPSIS
+  skill-calendar [--png FILE] [--svg FILE] [--no-optimize] FILE
+
+DESCRIPTION
+  The skill-calendar(1) command translates a TSV (tab separated values) 
+  containing a matrix into SVG or PNG graphics.
+
+OPTIONS
+--svg FILE
+  Writes the SVG output to the specified FILE
+
+--png FILE
+  Converts the SVG output to a PNG and saves it to FILE
+
+--no-optimize
+  Disables SVG optimizations that should be harmless
+
+Note that if neither --svg or --png are given, output will be written to standard out.
+
+AUTHOR
+  skill-calendar was written by Ryan Marcus <ryan@rmarcus.info>.
+
+RESOURCES
+  See the GitHub page: <https://github.com/RyanMarcus/skill-calendar>
+
+COPYING
+  Copyright (C) 2015 Ryan Marcus. Free use of this software is
+  granted under the terms of the GNU General Public License (GPLv3).
+

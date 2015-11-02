@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 
+// Copyright 2015 Ryan Marcus
 //This file is part of skill-calendar.
 // 
 //skill-calendar is free software: you can redistribute it and/or modify
