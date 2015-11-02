@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A utility to make a skill calendar for a website or a resume",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "node_modules/mocha/bin/mocha"
   },
   "bin": {
     "skill-calendar": "index.js"
@@ -18,5 +18,9 @@
     "svgo": "^0.5.6",
     "tmp": "0.0.28",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "shelljs": "^0.5.3"
   }
 }
