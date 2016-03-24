@@ -1,6 +1,6 @@
 {
   "name": "skill-calendar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility to make a skill calendar for a website or a resume",
   "preferGlobal": true,
   "scripts": {
