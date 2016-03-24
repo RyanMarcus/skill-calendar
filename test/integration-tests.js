@@ -55,7 +55,7 @@ describe("the CLI", function () {
 	shell.rm("test.svg");
     });
 
-    it("should write to a PNG file", () => {
+    it("should write to a PNG file", function() {
 	this.timeout(5000);
 	if (shell.test("-f", "test.png")) {
 	    shell.rm("test.png");
@@ -67,7 +67,7 @@ describe("the CLI", function () {
 	shell.rm("test.png");
     });
 
-    it("should write to both a PNG and an SVG file", () => {
+    it("should write to both a PNG and an SVG file", function() {
 	this.timeout(5000);
 	if (shell.test("-f", "test.png")) {
 	    shell.rm("test.png");
