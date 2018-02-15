@@ -1,10 +1,11 @@
-Year	Java	SQL	Python	NodeJS	Angular	C	ObjC	Ruby	Go	OpenCL	Machine Learning	Hadoop
+Year	Java	SQL	C	Python	Machine Learning	OpenCL	JS	Go	ObjC	Ruby	Hadoop	Clojure
 2008	high	low	none	none	none	none	none	none	none	none	none	none
-2009	high	low	none	none	none	low	none	none	none	none	none	none
+2009	high	low	low	none	none	none	none	none	none	none	none	none
 2010	high	low	none	none	none	none	none	none	none	none	none	none
-2011	high	low	high	none	none	low	low	none	low	high	none	none
-2012	high	high	high	none	none	low	low	none	high	high	none	none
-2013	low	high	high	low	low	high	none	none	low	high	high	none
-2014	low	high	low	high	high	high	none	low	none	low	high	high
-2015	high	low	high	high	high	low	none	low	none	none	high	low
-2016	high	low	high	high	low	low	none	low	high	none	high	none
+2011	high	low	low	high	none	high	none	low	low	none	none	none
+2012	high	high	low	high	none	high	none	high	low	none	none	none
+2013	low	high	high	high	high	high	low	low	none	none	none	none
+2014	low	high	high	low	high	low	high	none	none	low	high	none
+2015	high	low	low	high	high	none	high	none	none	low	low	none
+2016	high	low	low	high	high	none	high	high	none	low	none	none
+2017	high	low	high	low	high	none	low	low	none	none	none	high
