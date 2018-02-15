@@ -1,5 +1,4 @@
 # skill-calendar
-[ ![Codeship Status for RyanMarcus/skill-calendar](https://codeship.com/projects/7375b450-634e-0133-6ac1-62dbb5275a9f/status?branch=master)](https://codeship.com/projects/112767)
 
 
 This is a simple NodeJS script to make "cool" skill calendars like this one:
